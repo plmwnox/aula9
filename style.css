@@ -1,0 +1,110 @@
+h1{
+    color: white;
+    background-color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    border: solid 2px black;
+    text-shadow: 2px 2px 0 black, -2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black
+}
+img{
+    margin: 0;
+    display: flex;
+    border: solid 2px black;
+    width: 350px;
+    height: 300px;
+}
+
+
+.etiquetaClasse{
+    color: aqua;
+    background-color: chartreuse;
+    border: solid 2px purple;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 60px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    background-color: white;
+    border: solid 5px black;
+    text-shadow: 4px 4px 0 black, -4px 4px 0 darkgray, -4px -4px 0 gray, 4px -4px 0 gainsboro
+}
+div{
+    margin: auto;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-basis: auto;
+}
+h3{
+    text-align: center;
+    margin: auto;
+    color: black;
+    background-color: gainsboro;
+    border: solid 3px black;
+    font-size: 20px;
+}
+/* From Uiverse.io by MAnorbaeva5406 */ 
+button {
+    text-align: center;
+    color: rgb(253, 119, 119);
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: hsl(120, 7%, 23%);
+    border: solid 4px hsl(0, 0%, 100%);
+    font-family: inherit;
+  }
+  
+  .default-btn,
+  .hover-btn {
+    text-align: center;
+    background-color: hsl(120, 7%, 23%);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.6s ease;
+  }
+  
+  .hover-btn {
+    position: absolute;
+    inset: 0;
+    background-color: hsl(0, 0%, 0%);
+    transform: translate(0%, 100%);
+  }
+  
+  .default-btn span {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .hover-btn span {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  button:hover .default-btn {
+    transform: translate(0%, -100%);
+  }
+  
+  button:hover .hover-btn {
+    transform: translate(0%, 0%);
+  }
+  .css-i6dzq1 {
+    color: black;
+  }
+  
